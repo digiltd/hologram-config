@@ -1,0 +1,21 @@
+{
+  "name": "project_name",
+  "version": "0.0.0",
+  "authors": [
+    "Sam Turner (MP) <sam@digi.ltd.uk>"
+  ],
+  "description": "Wordpress Theme for ...",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "Cortana": "~1.2.7",
+    "jquery": "~2.1.3"
+  }
+}
