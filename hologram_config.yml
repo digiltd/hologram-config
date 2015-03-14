@@ -8,8 +8,8 @@ source: ./sass
 destination: ./docs
 
 # Hologram theme
-documentation_assets: ./inc/Cortana
-custom_markdown: ./inc/Cortana/CortanaMarkdownRenderer.rb
+documentation_assets: ./cortana
+custom_markdown: ./cortana/CortanaMarkdownRenderer.rb
 
 # List all css to include for the styleguide render examples (path from styleguide directory)
 css_include:
