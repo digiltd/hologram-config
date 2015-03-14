@@ -1,0 +1,3 @@
+[submodule "cortana"]
+	path = cortana
+	url = git@github.com:Yago/Cortana.git
