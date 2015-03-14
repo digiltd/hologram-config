@@ -6,14 +6,14 @@
 
 ## Usage
 
-Install **Hologram** (required) :
+Install **Hologram** :
 
 ````
 $ gem install hologram
 ````
 
 
-Install **Cortana** and jQuery :
+Install **Cortana**, **Grunt** and other dependancies :
 
 ````
 $ bower install
