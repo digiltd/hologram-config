@@ -45,7 +45,7 @@ title: Blockquote with author
 name: blockquote_author
 category: Typography - Blockquote
 ---
-```html_example
+\```html_example
 
   <blockquote>
       Operating a two camera shoot we captured the music duo’s performance
@@ -54,7 +54,7 @@ category: Typography - Blockquote
     <cite>Jack James</cite>
   </blockquote>
 
-```
+\```
 */
 
 
@@ -102,12 +102,11 @@ $ hologram
 ````
 
 
-Or use grunt to watch for changes to your compiled CSS, then wipe and build a new doc everytime you save.
+Or run grunt to watch for changes to your compiled CSS, then wipe and build a new doc everytime you save.
 
 ````
 $ grunt
 ````
-
 
 Note that Grunt is only watching for the compiled CSS (style.css) which is compiled by Codekit.
 
