@@ -1,0 +1,50 @@
+/*doc
+---
+title: Blockquote with author
+name: blockquote_author
+category: Typography - Blockquote
+---
+```html_example
+
+  <blockquote>
+      Operating a two camera shoot we captured the music duo’s performance
+      providing raw content and an edited version for production purposes.
+
+    <cite>Jack James</cite>
+  </blockquote>
+
+```
+*/
+
+
+blockquote {
+  @include text-gradient(map-get($colors, 'brand'), lighten(map-get($colors, 'brand-magenta'), 30%));
+
+  border-left: solid 10px map-get($colors, 'brand-magenta');
+  padding: .5em 10px;
+  padding-bottom: 0;
+  quotes: '\201C''\201D''\2018''\2019';
+  font-size: 2.9em;
+  line-height: .9em;
+  font-weight: map-get($font-weights, 'black');
+  &:before {
+    color: #ccc;
+    content: open-quote;
+    display: block;
+    font-size: 2.5em;
+    line-height: .4em;
+    margin-right: .25em;
+    vertical-align: -.4em;
+
+  }
+  p {
+    display: inline;
+
+  }
+  cite {
+    font-weight: map-get($font-weights, 'regular');
+    display: block;
+    font-size: .8em;
+  }
+
+}
